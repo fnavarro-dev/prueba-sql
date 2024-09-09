@@ -46,8 +46,5 @@ Como queda la consulta con los tags separados por comas y agrupados por la misma
 
     Simplificación de consultas mediante alias (`peliculas p`).
 
-## Validación de Datos
-
-    Restricciones que no afectan datos preexistentes.
 
 
