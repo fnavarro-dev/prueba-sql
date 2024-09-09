@@ -23,6 +23,16 @@ LEFT JOIN tags ON pelicula_tags.tag_id = tags.id
 GROUP BY peliculas.nombre
 ORDER BY peliculas.nombre;
 ```
+Como queda la consulta con los tags separados por comas y agrupados por la misma película:
+
+| pelicula   | tags                |
+|------------|---------------------|
+| Película 1 | Tag 1, Tag 2, Tag 3 |
+| Película 2 | Tag 4, Tag 5        |
+| Película 3 | NULL                |
+| Película 4 | NULL                |
+| Película 5 | NULL                |
+
 
 ## CASCADE
 
